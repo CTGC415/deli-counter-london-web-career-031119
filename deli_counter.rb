@@ -17,7 +17,5 @@ def now_serving(line)
   if line.empty?
     return puts "The line is now empty."
   end
-
-  put "Now serving #{line.shift}."
-
+  puts "Now serving #{line.shift}."
 end
