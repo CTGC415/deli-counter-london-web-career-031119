@@ -7,3 +7,8 @@ def line(line)
   line.each { |name| message += " #{line.index(name) + 1 }. #{name}" }
   puts message
 end
+
+def take_a_number(line, name)
+  line.push(name)
+
+end
