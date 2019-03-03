@@ -5,5 +5,5 @@ def line(line)
   end
   message = "The line is currently:"
   line.each { |name| message += " #{line.index(name) + 1 }. #{name}" }
-  return message
+  puts message
 end
